@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+@font-face {
+  font-family: "baskerville";
+  src: url(../font/BaskervilleBoldBT.ttf);
+}
+
+* {
+  font-family: "Lato";
+  /* background: #c2cad0; */
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+select,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+nav a {
+  font-size: 14px;
+  color: #828384 !important;
+  font-weight: 900 !important;
+}
+
+nav {
+  border-bottom: 1px solid #f1f3f4;
+  font-weight: bolder;
+  height: 80px;
+}
+
+nav .day,
+nav .date {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #828384;
+}
+
+nav .time {
+  font-size: 12px;
+  font-weight: 400;
+  color: #bec0c2;
+}
+
+nav .calendar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eef0f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numberWrapper .exchange {
+  background: #000;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newCol .exchange {
+  background: #000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.valueCol .text {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: bolder;
+}
+
+.valueCol select {
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+.valueCol input[type="number"] {
+  font-size: 30px;
+  border-radius: 0%;
+  border: none;
+  color: #757e89;
+}
+
+.cursor {
+  position: relative;
+}
+.cursor i {
+  position: absolute;
+  width: 1px;
+  height: 40%;
+  background-color: #000;
+  left: 0px;
+  top: 50%;
+  animation-name: blink;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.cursor input:focus + i {
+  display: none;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.numberWrapper .textField {
+  height: 89px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: #757e89;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #323c46;
+}
+
+@media (max-width: 576px) {
+}

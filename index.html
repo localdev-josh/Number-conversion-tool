@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Converter</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md px-0">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container px-0">
+                <a class="navbar-brand" href="#"
+                  ><img
+                    class="logo"
+                    width="172px"
+                    src="img/logo.svg"
+                    alt="brand-logo"
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active ps-3"
+                        aria-current="page"
+                        href="#link"
+                        >Home</a
+                      >
+                    </li>
+                  </ul>
+                  <div
+                    class="
+                      ms-auto
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="me-3">
+                      <i
+                        class="fa fa-calendar fa-sm calendar"
+                        style="color: #828384"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div>
+                      <div class="day">
+                        <span id="dayofweek"><span>
+                      </div>
+                      <div class="time" id="time"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class="container mt-5">
+            <div class="header">Number Converter</div>
+          </div>
+
+          <div
+            class="
+              numberWrapper
+              container
+              d-md-flex
+              justify-content-between
+              align-items-center
+              mt-5
+            "
+          >
+            <div class="valueCol col">
+              <div class="text">From</div>
+              <select
+                class="form-select form-select-lg mb-3 ps-0"
+                aria-label=".form-select-lg example"
+              >
+                <option selected>Number</option>
+              </select>
+              <div class="cursor">
+                <input
+                  type="number"
+                  class="form-control rq-form-element mt-5 pt-5 ps-0"
+                  id="numberInput"
+                />
+                <i></i>
+              </div>
+            </div>
+            <div class="mx-5" onclick="main()">
+              <i
+                class="fa fa-exchange fa-lg exchange"
+                style="color: #fff; cursor: pointer"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <div class="valueCol col">
+              <div class="text">To</div>
+              <select
+                class="form-select form-select-lg mb-3 ps-0"
+                aria-label=".form-select-lg example"
+              >
+                <option selected>American English</option>
+                <option>French</option>
+                <option>Spanish</option>
+              </select>
+              <div class="textField mt-5 pt-5" id="conversionDom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

@@ -16,5 +16,5 @@ Examples
 
 ## 📸 Screenshot
 
-<img src="https://i.ibb.co/BVM219r/Screenshot-2021-12-21-at-07-42-33.png"> |
+<img src="https://i.ibb.co/BVM219r/Screenshot-2021-12-21-at-07-42-33.png"> 
 <img src="https://i.ibb.co/yX5MbDc/Screenshot-2021-12-21-at-07-46-32.png">

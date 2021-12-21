@@ -1,6 +1,6 @@
 # A Number Conversion tool
 
-A web-based application that converts numeric input into the English phrase of that number. 
+A web-based application that converts numeric input into the text phrase of that number. 
 
 Examples
 <pre>
